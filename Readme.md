@@ -4,7 +4,7 @@ My one-stop resource for mastering Data Structures and Algorithms (DSA) with str
 
 ---
 
-## 📘 Theory Notes
+## 📘 [Theory Notes](./0-Theory/Readme.md)
 
 - [Time Complexity](./0-Theory/01-time-complexity.md)
 - [Space Complexity](./0-Theory/02-space-complexity.md)
