@@ -13,6 +13,11 @@ My one-stop resource for mastering Data Structures and Algorithms (DSA) with str
 
 ---
 
+## 📦 [Array Based](./1-Array/Readme.md)
+
+- [Second Largest](./1-Array/SecondLargestElement.java)
+- [Remove Duplicate in place from sorted array](./1-Array/RemoveDuplicatesFromSortedArray.java)
+
 <!--
 ## 🔁 Pattern-Based Approaches
 
