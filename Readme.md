@@ -18,8 +18,9 @@ My one-stop resource for mastering Data Structures and Algorithms (DSA) with str
 - [Second Largest](./1-Array/SecondLargestElement.java)
 - [Remove Duplicate in place from sorted array](./1-Array/RemoveDuplicatesFromSortedArray.java)
 - [Maximum Points You Can Obtain from Cards](./1-Array/MaximunPoints.java)
-
+- [Longest Substring Without Repeating Characters](./1-Array/LongestSubstring.java)
 <!--
+
 ## 🔁 Pattern-Based Approaches
 
 - [Sliding Window](./1-Patterns/01-sliding-window.md)

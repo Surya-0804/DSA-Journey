@@ -95,3 +95,37 @@ You have a row of n cards, each with a value in cardPoints[i]. You can pick exac
 - Compare each combination and keep track of the maximum total.
 
 ---
+
+## 🔠 Longest Substring Without Repeating Characters
+
+### 🔗 Problem Link:
+
+[LeetCode - Longest Substring Without Repeating Characters]()
+
+### ✅ Approach 1: Brute Force
+
+- Use nested loops to explore all substrings.
+
+- Track visited characters using a boolean array.
+
+- Stop when a character repeats.
+
+- 📈 Time & Space Complexity:
+
+  - Time: O(n²)
+
+  - Space: O(256) ≈ O(1)
+
+### ✅ Approach 2: Optimized - Sliding Window (Two Pointers)
+
+- Use two pointers to track current window of unique characters.
+
+- Hash array to store the last seen index of characters.
+
+- If a character is repeated, move the left pointer just past the previous index of the character.
+
+- 📈 Time & Space Complexity:
+
+  - Time: O(n)
+
+  - Space: O(256) ≈ O(1)
