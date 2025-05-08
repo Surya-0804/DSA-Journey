@@ -1,30 +1,47 @@
 # 📚 My DSA Journey
 
-My one-stop resource for mastering Data Structures and Algorithms (DSA) with structured notes, explanations, and patterns.
+Your one-stop resource for mastering **Data Structures and Algorithms (DSA)** with structured notes, clean code, and categorized patterns.
 
 ---
 
-## 📘 [Theory Notes](./0-Theory/Readme.md)
+## 📘 Theory Notes — [Read More »](./0-Theory/Readme.md)
 
-- [Time Complexity](./0-Theory/01-time-complexity.md)
-- [Space Complexity](./0-Theory/02-space-complexity.md)
-- [Big-O Notation](./0-Theory/03-big-o-notation.md)
-- [Complexity Table](./0-Theory/04-complexity-table.md)
+> Dive deep into the fundamentals of DSA.
+
+- 📈 [Time Complexity](./0-Theory/01-time-complexity.md)
+- 🧠 [Space Complexity](./0-Theory/02-space-complexity.md)
+- 🧮 [Big-O Notation](./0-Theory/03-big-o-notation.md)
+- 📊 [Complexity Table](./0-Theory/04-complexity-table.md)
 
 ---
 
-## 📦 [Array Based](./1-Array/Readme.md)
+## 📦 Array-Based Problems — [Explore »](./1-Array/Readme.md)
 
-- [Second Largest](./1-Array/SecondLargestElement.java)
-- [Remove Duplicate in place from sorted array](./1-Array/RemoveDuplicatesFromSortedArray.java)
-- [Maximum Points You Can Obtain from Cards](./1-Array/MaximunPoints.java)
-- [Longest Substring Without Repeating Characters](./1-Array/LongestSubstring.java)
-<!--
+> Classic DSA problems involving array manipulation.
+
+- [Second Largest Element](./1-Array/SecondLargestElement.java)
+- [Remove Duplicates In-Place (Sorted Array)](./1-Array/RemoveDuplicatesFromSortedArray.java)
+- [Maximum Points from Cards](./1-Array/MaximunPoints.java)
+
+---
+
+## 🧵 String-Based Problems — [Explore »](./2-String/Readme.md)
+
+> Efficient solutions for common string manipulation challenges.
+
+- [Longest Substring Without Repeating Characters](./2-String/LongestSubstring.java)
+
+---
 
 ## 🔁 Pattern-Based Approaches
 
-- [Sliding Window](./1-Patterns/01-sliding-window.md)
-- [Two Pointers](./1-Patterns/02-two-pointers.md)
-- [Binary Search](./1-Patterns/03-binary-search.md)
+> Categorizing problems based on popular algorithmic patterns.
 
-... -->
+### 🪟 [Sliding Window](./Patterns/sliding-window.md)
+
+- [Maximum Points from Cards](./Patterns/SlidingWindow/MaximunPoints.java)
+- [Longest Substring Without Repeating Characters](./Patterns/SlidingWindow/LongestSubstring.java)
+
+### 🧍‍♂️🧍‍♀️ [Two Pointers](./Patterns/TwoPointers/Readme.md)
+
+- [Remove Duplicates In-Place (Sorted Array)](./Patterns/TwoPointers/RemoveDuplicatesFromSortedArray.java)
