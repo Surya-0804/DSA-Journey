@@ -10,7 +10,7 @@
 //Tow Pointers Approach
 //We can use two pointers to keep track of the left and right ends of the row of cards.
 //We can start by picking `k` cards from the left end and then gradually move the left pointer to the right and the right pointer to the left, while keeping track of the maximum sum of card values.
-class Solution {
+class MaximumPoints {
     public int maxScore(int[] cardPoints, int k) {
         int leftSum = 0;
         int rightSum = 0;

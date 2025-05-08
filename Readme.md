@@ -30,6 +30,7 @@ Your one-stop resource for mastering **Data Structures and Algorithms (DSA)** wi
 > Efficient solutions for common string manipulation challenges.
 
 - [Longest Substring Without Repeating Characters](./2-String/LongestSubstring.java)
+- [Count Palindrome Words in a Sentence](./2-String/CountPalindromes.java)
 
 ---
 
