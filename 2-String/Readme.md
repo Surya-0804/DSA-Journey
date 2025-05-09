@@ -68,3 +68,76 @@
 
   - Space Complexity: O(1)
     (ignoring the space for the split words which is unavoidable)
+
+---
+
+# 🧩 Valid Anagram
+
+## 🔗 Problem Link:
+
+[Leetcode - Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
+
+## 📄 Problem Statement:
+
+An anagram is a word or phrase formed by rearranging the letters of another, using all the original letters exactly once.
+
+Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `false` otherwise.
+
+---
+
+## ✅ Approaches
+
+### 🟠 Approach 1: Sorting
+
+- Convert both strings to character arrays.
+- Sort both arrays.
+- Compare the sorted arrays.
+
+#### 📈 Time Complexity:
+
+- `O(n log n)`
+
+#### 📦 Space Complexity:
+
+- `O(n)` (due to char arrays)
+
+---
+
+### 🟢 Approach 2: HashMap
+
+- Count frequency of each character in string `s`.
+- Decrease frequency for each character in string `t`.
+- If any character has mismatched frequency or doesn't exist, return false.
+
+#### 📈 Time Complexity:
+
+- `O(n)`
+
+#### 📦 Space Complexity:
+
+- `O(n)`
+
+---
+
+### 🔵 Approach 3: Frequency Array
+
+- Use a fixed-size integer array (size 26 for lowercase a-z).
+- Increment counts for characters in `s`, decrement for `t`.
+- If any frequency goes below zero, return false.
+
+#### 📈 Time Complexity:
+
+- `O(n)`
+
+#### 📦 Space Complexity:
+
+- `O(1)` (since array size is constant)
+
+---
+
+## 📌 Notes:
+
+- Frequency array is the most efficient in terms of space and speed for lowercase English letters.
+- Use HashMap if input may include unicode or mixed-case characters.
+
+---
