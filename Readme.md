@@ -47,3 +47,7 @@ Your one-stop resource for mastering **Data Structures and Algorithms (DSA)** wi
 ### 🧍‍♂️🧍‍♀️ [Two Pointers](./Patterns/TwoPointers/Readme.md)
 
 - [Remove Duplicates In-Place (Sorted Array)](./Patterns/TwoPointers/RemoveDuplicatesFromSortedArray.java)
+
+### 🔄 [Kadane's Algorithm](./Patterns/Kadane/notes.md)
+
+- [Maximum Subarray Sum](./Patterns/Kadane/MaximunSubarraySum.java)
