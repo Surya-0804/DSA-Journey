@@ -51,3 +51,7 @@ Your one-stop resource for mastering **Data Structures and Algorithms (DSA)** wi
 ### 🔄 [Kadane's Algorithm](./Patterns/Kadane/notes.md)
 
 - [Maximum Subarray Sum](./Patterns/Kadane/MaximunSubarraySum.java)
+
+### 🔄 [Binary Search](./Patterns/BinarySearch/notes.md)
+
+- [Binary Search Problem](./Patterns/BinarySearch/BinarySearchProblem.java)
