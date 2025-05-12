@@ -22,6 +22,7 @@ Your one-stop resource for mastering **Data Structures and Algorithms (DSA)** wi
 - [Second Largest Element](./1-Array/SecondLargestElement.java)
 - [Remove Duplicates In-Place (Sorted Array)](./1-Array/RemoveDuplicatesFromSortedArray.java)
 - [Maximum Points from Cards](./1-Array/MaximunPoints.java)
+- [Binary Search Problem](./1-Array/BinarySearchProblem.java)
 
 ---
 

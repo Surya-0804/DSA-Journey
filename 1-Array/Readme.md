@@ -186,3 +186,55 @@ Given an integer array `nums`, find the contiguous subarray (containing at least
 int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
 Output: 6 // Subarray: [4, -1, 2, 1]
 ```
+
+---
+
+## 🔍 Pattern: Binary Search
+
+### 🔗 Problem Link:
+
+[Binary Search - LeetCode](https://www.leetcode.com/problems/binary-search/)
+
+### 📝 Problem Statement:
+
+Given a **sorted array** of integers, find the **index** of a target value. If the target does not exist in the array, return -1.  
+You must write an algorithm with **O(log n)** runtime complexity.
+
+---
+
+### ✅ Approaches
+
+#### 🔁 Iterative Binary Search
+
+- Initialize `low = 0` and `high = nums.length - 1`.
+- While `low <= high`:
+  - Compute `mid = low + (high - low) / 2` to avoid overflow.
+  - If `nums[mid] == target`, return `mid`.
+  - If `nums[mid] > target`, search left: `high = mid - 1`.
+  - Else, search right: `low = mid + 1`.
+- Return -1 if not found.
+
+#### 🔁 Recursive Binary Search
+
+- Use helper method: `binarySearch(nums, target, low, high)`.
+- Base Case: if `low > high`, return -1.
+- Compute `mid = low + (high - low) / 2`.
+- Recursively search left or right based on comparison.
+
+---
+
+### 📈 Time & Space:
+
+- Time: `O(log n)`
+- Space:
+  - Iterative: `O(1)`
+  - Recursive: `O(log n)` (due to call stack)
+
+---
+
+### 🧠 Notes:
+
+- Works only on **sorted arrays**.
+- Use `mid = low + (high - low) / 2` instead of `(low + high) / 2` to avoid **integer overflow**.
+
+---
