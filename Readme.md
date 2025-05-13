@@ -40,19 +40,24 @@ Your one-stop resource for mastering **Data Structures and Algorithms (DSA)** wi
 
 > Categorizing problems based on popular algorithmic patterns.
 
-### 🪟 [Sliding Window](./Patterns/sliding-window.md)
+### 🪟 Sliding Window [Explore »](./Patterns/01-SlidingWindow/sliding-window.md)
 
-- [Maximum Points from Cards](./Patterns/SlidingWindow/MaximunPoints.java)
-- [Longest Substring Without Repeating Characters](./Patterns/SlidingWindow/LongestSubstring.java)
+- [Maximum Points from Cards](./Patterns/01-SlidingWindow/MaximunPoints.java)
+- [Longest Substring Without Repeating Characters](./Patterns/01-SlidingWindow/LongestSubstring.java)
 
-### 🧍‍♂️🧍‍♀️ [Two Pointers](./Patterns/TwoPointers/Readme.md)
+### 🧍‍♂️🧍‍♀️Two Pointers [Explore »](./Patterns/01-TwoPointers//Readme.md)
 
-- [Remove Duplicates In-Place (Sorted Array)](./Patterns/TwoPointers/RemoveDuplicatesFromSortedArray.java)
+- [Remove Duplicates In-Place (Sorted Array)](./Patterns/01-TwoPointers//RemoveDuplicatesFromSortedArray.java)
 
-### 🔄 [Kadane's Algorithm](./Patterns/Kadane/notes.md)
+### 🔄 Kadane's Algorithm [Explore »](./Patterns/2-Kadane/notes.md)
 
-- [Maximum Subarray Sum](./Patterns/Kadane/MaximunSubarraySum.java)
+- [Maximum Subarray Sum](./Patterns/2-Kadane/MaximunSubarraySum.java)
 
-### 🔄 [Binary Search](./Patterns/BinarySearch/notes.md)
+### 🔄 Binary Search - [Explore »](./Patterns/3-BinarySearch/notes.md)
 
-- [Binary Search Problem](./Patterns/BinarySearch/BinarySearchProblem.java)
+- [Binary Search Problem](./Patterns/3-BinarySearch/BinarySearchProblem.java)
+- [Lower Bound](./Patterns/3-BinarySearch/LowerBound.java)
+- [Upper Bound](./Patterns/3-BinarySearch/UpperBound.java)
+- [Search Insert Position](./Patterns/3-BinarySearch/SearchInsertPosition.java)
+- [Floor Binary Search](./Patterns/3-BinarySearch/FloorBS.java)
+- [Ceil Binary Search](./Patterns/3-BinarySearch/CeilBS.java)

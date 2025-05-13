@@ -115,12 +115,16 @@ long mid = (low + high) / 2;
 
 ### Summary
 
-| Method | Safe from Overflow? | Recommended For |
-| --- | --- | --- |
-| `(low + high) / 2` | ❌ No | Never use in large arrays |
-| `low + (high - low) / 2` | ✅ Yes | ✅ Standard Binary Search |
-| Using `long` | ✅ Yes | When working with `long`-based arrays |
+| Method                   | Safe from Overflow? | Recommended For                       |
+| ------------------------ | ------------------- | ------------------------------------- |
+| `(low + high) / 2`       | ❌ No               | Never use in large arrays             |
+| `low + (high - low) / 2` | ✅ Yes              | ✅ Standard Binary Search             |
+| Using `long`             | ✅ Yes              | When working with `long`-based arrays |
 
 ### Best Practice
 
 Always use `low + (high - low) / 2` for standard Binary Search to prevent overflow in large search spaces.
+
+---
+
+# Variants of Binary Search
