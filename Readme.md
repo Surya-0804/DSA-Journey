@@ -23,6 +23,11 @@ Your one-stop resource for mastering **Data Structures and Algorithms (DSA)** wi
 - [Remove Duplicates In-Place (Sorted Array)](./1-Array/RemoveDuplicatesFromSortedArray.java)
 - [Maximum Points from Cards](./1-Array/MaximunPoints.java)
 - [Binary Search Problem](./1-Array/BinarySearchProblem.java)
+- [Lower Bound](./1-Array/LowerBound.java)
+- [Upper Bound](./1-Array/UpperBound.java)
+- [Search Insert Position](./1-Array/SearchInsertPosition.java)
+- [Floor Binary Search](./1-Array/FloorBS.java)
+- [Ceil Binary Search](./1-Array/CeilBS.java)
 
 ---
 
