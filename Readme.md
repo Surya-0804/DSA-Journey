@@ -28,6 +28,7 @@ Your one-stop resource for mastering **Data Structures and Algorithms (DSA)** wi
 - [Search Insert Position](./1-Array/SearchInsertPosition.java)
 - [Floor Binary Search](./1-Array/FloorBS.java)
 - [Ceil Binary Search](./1-Array/CeilBS.java)
+- [Sort an Array](./1-Array/MergeSortRecursive.java)
 
 ---
 
@@ -67,4 +68,6 @@ Your one-stop resource for mastering **Data Structures and Algorithms (DSA)** wi
 - [Floor Binary Search](./Patterns/3-BinarySearch/FloorBS.java)
 - [Ceil Binary Search](./Patterns/3-BinarySearch/CeilBS.java)
 
-### 🔄 Merge Sort - [Explore »](./Patterns/3-BinarySearch/notes.md)
+### 🔄 Merge Sort - [Explore »](./Patterns/4-MergeSort/notes.md)
+
+- [Sort an Array](./Patterns/4-MergeSort/MergeSortRecursive.java)

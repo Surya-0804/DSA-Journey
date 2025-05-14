@@ -1,7 +1,5 @@
 # Merge Sort
 
-> **Divide** & **Merge**
-
 Merge Sort is a highly efficient sorting algorithm based on the **Divide and Conquer** principle. It is stable, predictable, and well-suited for large datasets.
 
 ---
@@ -43,7 +41,7 @@ void mergeSort(int[] arr, int low, int high) {
         return;
     }
 
-    int mid = low + (high - low) / 2;
+    int mid = (low + high) / 2;
     mergeSort(arr, low, mid);
     mergeSort(arr, mid + 1, high);
     merge(arr, low, mid, high);
