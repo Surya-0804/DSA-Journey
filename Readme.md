@@ -40,6 +40,7 @@ Your one-stop resource for mastering **Data Structures and Algorithms (DSA)** wi
 - [Longest Substring Without Repeating Characters](./2-String/LongestSubstring.java)
 - [Count Palindrome Words in a Sentence](./2-String/CountPalindromes.java)
 - [Valid Anagram](./2-String/Anagram.java)
+- [Counting sort](./2-String/CountingSort.java)
 
 ---
 
@@ -76,3 +77,7 @@ Your one-stop resource for mastering **Data Structures and Algorithms (DSA)** wi
 ### 🔄 Quick Sort - [Explore »](./Patterns/5-QuickSort/notes.md)
 
 - [Sort an Array](./Patterns/5-QuickSort/QuickSortRecursive.java)
+
+### 🔄 Counting Sort - [Explore »](./Patterns/6-CountingSort/notes.md)
+
+- [Counting sort](./Patterns/6-CountingSort/CountingSort.java)
