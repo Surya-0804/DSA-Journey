@@ -28,7 +28,8 @@ Your one-stop resource for mastering **Data Structures and Algorithms (DSA)** wi
 - [Search Insert Position](./1-Array/SearchInsertPosition.java)
 - [Floor Binary Search](./1-Array/FloorBS.java)
 - [Ceil Binary Search](./1-Array/CeilBS.java)
-- [Sort an Array](./1-Array/MergeSortRecursive.java)
+- [Sort an Array using Merge Sort](./1-Array/MergeSortRecursive.java)
+- [Sort an Array using Quick Sort](./1-Array/QuickSortRecursive.java)
 
 ---
 
@@ -71,3 +72,7 @@ Your one-stop resource for mastering **Data Structures and Algorithms (DSA)** wi
 ### 🔄 Merge Sort - [Explore »](./Patterns/4-MergeSort/notes.md)
 
 - [Sort an Array](./Patterns/4-MergeSort/MergeSortRecursive.java)
+
+### 🔄 Quick Sort - [Explore »](./Patterns/5-QuickSort/notes.md)
+
+- [Sort an Array](./Patterns/5-QuickSort/QuickSortRecursive.java)
