@@ -81,3 +81,8 @@ Your one-stop resource for mastering **Data Structures and Algorithms (DSA)** wi
 ### 🔄 Counting Sort - [Explore »](./Patterns/6-CountingSort/notes.md)
 
 - [Counting sort](./Patterns/6-CountingSort/CountingSort.java)
+
+### Hashing (HashMap, HashSet) - [Explore >>](./Patterns/7-Hashing/notes.md)
+
+- [Two Sum](./Patterns/7-Hashing/TwoSum.java)
+- [Happy Number](./Patterns/7-Hashing/HappyNumber.java)
