@@ -220,3 +220,40 @@ public static String countSort(String arr) {
 - Very efficient for problems involving **only lowercase letters**.
 - For general character sets (e.g. Unicode), consider using a **HashMap** instead of a fixed array.
 - Unlike comparison-based sorts, **Counting Sort is not comparison-based** and is thus faster for constrained input domains.
+
+---
+
+# Group Anagrams
+
+This document outlines the solution for the **Group Anagrams** problem, which involves grouping strings that are anagrams of each other using an efficient approach based on sorting and hashing.
+
+---
+
+## 🧩 Pattern: Group Anagrams
+
+### 🔗 Problem Link:
+
+[Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+
+### ✅ Approach:
+
+- Iterate through each string in the input array.
+- For each string, sort its characters to create a unique key representing the anagram group.
+- Use a `HashMap` to group strings by their sorted character key, where the value is a list of strings belonging to that anagram group.
+- Return the list of grouped anagrams from the `HashMap` values.
+
+### 📈 Time & Space:
+
+- **Time**: `O(n * k * log k)`, where `n` is the number of strings and `k` is the maximum length of a string (due to sorting each string).
+- **Space**: `O(n * k)`, to store the `HashMap` with all strings grouped by their keys.
+
+---
+
+### 🎯 Key Notes:
+
+- The solution handles edge conditionally, such as an empty input array (returns an empty list) or single-character strings.
+- Sorting the characters of each string ensures that anagrams produce the same key, making grouping straightforward.
+- Using `computeIfAbsent` simplifies adding strings to the `HashMap` by initializing a new list only when needed.
+- The approach is robust for typical constraints (e.g., lowercase English letters, string length up to 100).
+
+---
