@@ -238,3 +238,101 @@ You must write an algorithm with **O(log n)** runtime complexity.
 - Use `mid = low + (high - low) / 2` instead of `(low + high) / 2` to avoid **integer overflow**.
 
 ---
+
+# Binary Search Patterns: Lower Bound, Upper Bound, and Related Problems
+
+This document covers three key binary search-based problems: **Lower Bound**, **Upper Bound**, and **Search Insert Position**, along with the **Floor and Ceil** problem. These problems are fundamental for solving sorted array queries efficiently.
+
+---
+
+## 🧩 Pattern: Lower Bound
+
+### 🔗 Problem Link:
+
+[Lower Bound](https://www.geeksforgeeks.org/problems/implement-lower-bound/1)
+
+### ✅ Approach:
+
+- Use binary search to find the **first index** where `arr[i] >= x`.
+- If `x` exists, return its first occurrence; otherwise, return the insertion point.
+- Maintain a variable `answer` (initially `n`) to track the smallest valid index.
+- Update `answer` when `arr[mid] >= x` and search left for a smaller index.
+
+### 📈 Time & Space:
+
+- Time: `O(log₂ n)`
+- Space: `O(1)`
+
+---
+
+## 🧩 Pattern: Upper Bound
+
+### 🔗 Problem Link:
+
+[Upper Bound](https://www.geeksforgeeks.org/problems/implement-upper-bound/1)
+
+### ✅ Approach:
+
+- Use binary search to find the **smallest index** where `arr[i] > x`.
+- If no such element exists, return `n`.
+- Maintain a variable `answer` (initially `n`) to track the smallest valid index.
+- Update `answer` when `arr[mid] > x` and search left for a smaller index.
+
+### 📈 Time & Space:
+
+- Time: `O(log₂ n)`
+- SPACE: `O(1)`
+
+---
+
+## 🧩 Pattern: Search Insert Position
+
+### 🔗 Problem Link:
+
+[Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)
+
+### ✅ Approach:
+
+- Identical to **Lower Bound**: find the smallest index where `arr[i] >= x`.
+- Returns the index of `x` if it exists, or the position where `x` should be inserted.
+- Reuse the Lower Bound logic directly.
+
+### 📈 Time & Space:
+
+- Time: `O(log₂ n)`
+- Space: `O(1)`
+
+---
+
+## 🧩 Pattern: Floor and Ceil in Sorted Array
+
+### 🔗 Problem Link:
+
+[Floor in sorted array](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1)
+
+[Ceil in sorted array](https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1)
+
+### ✅ Approach:
+
+- **Floor**: Use binary search to find the **largest number** `<= x`.
+  - Update `ans` when `arr[mid] <= x` and search right for a larger valid number.
+  - Return `-1` if no such number exists.
+- **Ceil**: Use binary search to find the **smallest number** `>= x`.
+  - Update `ans` when `arr[mid] >= x` and search left for a smaller valid number.
+  - Return `-1` if no such number exists.
+
+### 📈 Time & Space:
+
+- Time: `O(log₂ n)` (for each operation)
+- Space: `O(1)`
+
+---
+
+### 🎯 Key Notes:
+
+- All these problems leverage **binary search** to achieve logarithmic time complexity.
+- They are applicable to **sorted arrays** (with or without duplicates).
+- Understanding **Lower Bound** and **Upper Bound** is crucial, as they form the basis for solving **Search Insert Position** and can be adapted for **Floor and Ceil**.
+- Ensure overflow-safe midpoint calculation using `low + (high - low) / 2`.
+
+---

@@ -30,6 +30,7 @@ Your one-stop resource for mastering **Data Structures and Algorithms (DSA)** wi
 - [Ceil Binary Search](./1-Array/CeilBS.java)
 - [Sort an Array using Merge Sort](./1-Array/MergeSortRecursive.java)
 - [Sort an Array using Quick Sort](./1-Array/QuickSortRecursive.java)
+- [Intersection of Two Arrays](./1-Array/IntersectionOfTwoArrays.java)
 
 ---
 
@@ -86,3 +87,4 @@ Your one-stop resource for mastering **Data Structures and Algorithms (DSA)** wi
 
 - [Two Sum](./Patterns/7-Hashing/TwoSum.java)
 - [Happy Number](./Patterns/7-Hashing/HappyNumber.java)
+- [Intersection of Two Arrays](./Patterns/7-Hashing/IntersectionOfTwoArrays.java)
