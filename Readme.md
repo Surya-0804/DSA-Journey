@@ -46,6 +46,13 @@ Your one-stop resource for mastering **Data Structures and Algorithms (DSA)** wi
 
 ---
 
+## 🔗 LinkedList based Problems - [Explore >>](./4-LinkedList/Readme.md)
+
+>
+
+- [Design Linked List](./4-LinkedList/DesignLinkedList.java)
+- [LinkedList Cycle Detection](./4-LinkedList/LinkedListCycle.java)
+
 ## 🔁 Pattern-Based Approaches
 
 > Categorizing problems based on popular algorithmic patterns.
