@@ -77,38 +77,52 @@ A string is considered **valid** if:
 
 ---
 
----
-
----
-
----
-
-# Queue Problems
-
-## Queue Implementation using Array (Circular Queue)
+# Next Greater Element I
 
 ### 🔗 Problem Link:
 
-[GeeksForGeeks - Queue Implementation using Array](https://www.geeksforgeeks.org/problems/implement-queue-using-array/1)
+[LeetCode - Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
 
-**Description:**  
-A queue is a linear data structure that follows the **First In, First Out (FIFO)** principle. Elements are added (enqueued) at the rear and removed (dequeued) from the front. This implementation uses a circular array to optimize space usage.
+---
 
-### 🔧 Implementation Details:
+### 🧩 Problem Description
 
-- **Data Structure Used:** Fixed-size array (`int[] arr`) with a maximum capacity of 100005.
-- **Key Operations:**
-  - `push(int x)`: Adds an element to the rear of the queue.
-  - `pop()`: Removes and returns the front element from the queue.
-- **Boundary Conditions:**
-  - If the queue is empty (`front == rear`), `pop` returns `-1`.
-  - The circular nature is handled using modulo (`% 100005`) to wrap around the array indices.
-- **Circular Queue Advantage:** Prevents wasted space by reusing the front of the array after elements are dequeued.
-- **Note:** This implementation does not check for queue overflow (when `rear` catches up to `front` after wrapping). Add a check if needed: `if ((rear + 1) % 100005 == front)`.
+You are given two **distinct** 0-indexed integer arrays `nums1` and `nums2`, where `nums1` is a **subset** of `nums2`.
 
-### 🕒 Time & Space Complexity
+The **next greater element** of some element `x` in `nums2` is the **first greater element** that is **to the right of `x`** in the same array.
 
-| Operation | Time Complexity | Space Complexity |
-| --------- | --------------- | ---------------- |
-| Push      | O(1)            | O(1)             |
-| Pop       | O(1)            | O(1)             |
+For each element in `nums1`, find the next greater element of it in `nums2`. If it does not exist, return `-1`.
+
+---
+
+### 🚀 Solutions
+
+### 1. Brute Force Approach
+
+- **Idea:**  
+  For every element in `nums1`, iterate over `nums2` to find the next greater element.
+- **Process:**
+  - Set a flag once the target element is found in `nums2`.
+  - Continue iterating until an element greater than the target is found.
+- **Time Complexity:** `O(n * m)`
+- **Space Complexity:** `O(n)`
+
+This approach searches linearly from the match in `nums2` to find the next greater element.
+
+### 2. Optimized Approach using Stack and HashMap
+
+- **Idea:**  
+  Pre-compute the next greater element for every value in `nums2` using a stack while processing `nums2` in reverse. Store these mappings in a `HashMap`.
+- **Process:**
+  - Traverse `nums2` backwards.
+  - Use a stack to maintain elements in decreasing order.
+  - For each element, pop the smaller elements from the stack.
+  - The top element of the stack (if exists) is the next greater element.
+  - Save the result in a `HashMap`.
+  - Finally, build the output for `nums1` using this map.
+- **Time Complexity:** `O(n + m)`
+- **Space Complexity:** `O(n + m)`
+
+This uses a monotonic stack and a hashmap to preprocess the next greater elements for all elements in `nums2` and then fetches results for `nums1` efficiently.
+
+---

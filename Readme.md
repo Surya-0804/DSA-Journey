@@ -53,6 +53,22 @@ Your one-stop resource for mastering **Data Structures and Algorithms (DSA)** wi
 - [Design Linked List](./4-LinkedList/DesignLinkedList.java)
 - [LinkedList Cycle Detection](./4-LinkedList/LinkedListCycle.java)
 
+---
+
+## 🔗 Stack Based Problems - [Explore >>](./5-Stack&Queue/StackReadme.md)
+
+- [Stack Implementation using Array](./5-Stack&Queue/StackImplementationUsingArray.java)
+- [Balanced Parentheses](./5-Stack&Queue/BalancedParentheses.java)
+- [Next Greater Element I](./5-Stack&Queue/NextGreaterElement1.java)
+
+---
+
+## 🔗 Queue Based Problems - [Explore >>](./5-Stack&Queue/QueueReadme.md)
+
+- [Queue Implementation using Array](./5-Stack&Queue/QueueImplementationUsingArray.java)
+
+---
+
 ## 🔁 Pattern-Based Approaches
 
 > Categorizing problems based on popular algorithmic patterns.
@@ -97,3 +113,13 @@ Your one-stop resource for mastering **Data Structures and Algorithms (DSA)** wi
 - [Happy Number](./Patterns/7-Hashing/HappyNumber.java)
 - [Intersection of Two Arrays](./Patterns/7-Hashing/IntersectionOfTwoArrays.java)
 - [Group Annagrams](./Patterns/7-Hashing/GroupAnnagrams.java)
+
+---
+
+## ✍️ Author
+
+**Surya Abothula**
+
+- 🧑‍💻 GitHub: [Surya-0804](https://github.com/Surya-0804)
+- 📝 Medium: [suryaabothula](https://medium.com/@surya.abothula)
+- 💼 LinkedIn: [Surya Abothula](https://www.linkedin.com/in/suryaabothula)
