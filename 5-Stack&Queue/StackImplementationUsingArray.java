@@ -1,6 +1,7 @@
 // Stack Implementation using the array
 //time complexity: O(1)
 //space complexity: O(1)
+//link: https://www.geeksforgeeks.org/problems/implement-stack-using-array/1
 
 class MyStack {
     private int[] arr;
