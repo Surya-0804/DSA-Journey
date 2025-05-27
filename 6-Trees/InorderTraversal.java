@@ -21,6 +21,7 @@
  */
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Stack;
 
 class TreeNode {
     int val;
@@ -55,5 +56,30 @@ class InorderTraversalSolution {
         inOrder(root.left, list);
         list.add(root.val);
         inOrder(root.right, list);
+    }
+}
+
+// Iterative
+class InorderTraversalIterativeSolution {
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> answer = new LinkedList<>();
+        TreeNode node = root;
+        if (node == null)
+            return answer;
+        Stack<TreeNode> stack = new Stack<>();
+        while (true) {
+            if (node != null) {
+                stack.push(node);
+                node = node.left;
+            } else {
+                if (stack.isEmpty()) {
+                    break;
+                }
+                node = stack.pop();
+                answer.add(node.val);
+                node = node.right;
+            }
+        }
+        return answer;
     }
 }
